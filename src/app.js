@@ -17,10 +17,12 @@ export function estadoSistema() {
 }
 
 export function healthcheck() {
-return {
-status:'ok',
-timestamp: new Date().toISOString(),
-servicio: 'streamFlow API',
-version: '1.0.0'
-};
+return null;
 }
+
+
+
+//status:'ok',
+//timestamp: new Date().toISOString(),
+//servicio: 'streamFlow API',
+//version: '1.0.0'
