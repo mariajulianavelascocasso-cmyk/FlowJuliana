@@ -25,8 +25,18 @@ fallidas++;
 console.log("\nResultados;"+ pasadas + "pasadas,", + fallidas +"fallidas")
 if (fallidas > 0)  Process.exit(1); "fallidas"
 }
+
+const health = healthcheck();
+if (health.status==='ok'){
+console.log('test healthcheck pasado');
+pasadas++;
+}else{
+console.log('test healthcheck fallido');
+fallidas++;
+}
+
 ejecutarPruebas();
 
-
+  
 
 
