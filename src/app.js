@@ -1,5 +1,6 @@
 export function saludar(nombre) {
-  return `Hola ${nombre}, bienvenido a la aplicación de Juliana.`;
+  //return `Hola ${nombre}, bienvenido a la aplicación de Juliana.`;
+  return Hola ${nombre}, bienvenido a la aplicación de Juliana.;
 }
 
 export function despedir(nombre) {
