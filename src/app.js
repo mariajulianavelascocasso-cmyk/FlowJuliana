@@ -44,4 +44,6 @@ export function factorial(n) {
   }
 
   return resultado;
-}
+    status: "ok"
+  };
+

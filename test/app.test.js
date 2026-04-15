@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { saludar, despedir, estadoSistema, healthcheck, suma, factorial } from "../src/app.js";
+=======
+import { saludar, despedir, estadoSistema, healthcheck } from "../src/app.js";
+>>>>>>> hotfix/fix-healthcheck
 
 function ejecutarPruebas() {
   let pasadas = 0;
@@ -17,7 +21,11 @@ function ejecutarPruebas() {
   // ✅ Test 2: estadoSistema
   const actualEstado = estadoSistema();
   if (actualEstado.estado === "activo") {
+<<<<<<< HEAD
     console.log("Test 2 pasado: estadoSistema correcto");
+=======
+    console.log("Test 2 pasado: estadoSistema() funciona correctamente");
+>>>>>>> hotfix/fix-healthcheck
     pasadas++;
   } else {
     console.log("Test 2 fallido:", actualEstado);
@@ -34,6 +42,7 @@ function ejecutarPruebas() {
     fallidas++;
   }
 
+<<<<<<< HEAD
   // ✅ Test 4: suma
   const rSuma = suma(2, 3);
   if (rSuma === 5) {
@@ -55,6 +64,9 @@ function ejecutarPruebas() {
   }
 
   // ✅ Resultados finales
+=======
+  // ✅ Resultados
+>>>>>>> hotfix/fix-healthcheck
   console.log(`\nResultados: ${pasadas} pasadas, ${fallidas} fallidas`);
 
   if (fallidas > 0) {
