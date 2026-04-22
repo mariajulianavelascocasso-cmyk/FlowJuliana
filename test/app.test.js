@@ -1,7 +1,7 @@
 
 import { saludar, despedir, estadoSistema, healthcheck, suma, factorial } from "../src/app.js";
 
-import { saludar, despedir, estadoSistema, healthcheck } from "../src/app.js";
+//import { saludar, despedir, estadoSistema, healthcheck } from "../src/app.js";
 
 function ejecutarPruebas() {
   let pasadas = 0;
